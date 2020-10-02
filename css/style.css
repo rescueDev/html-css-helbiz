@@ -152,7 +152,8 @@ header {
   text-decoration: none;
 }
 
-#get-app-text {
+#get-app-text,
+#find-us-text {
   margin-bottom: 20px;
 }
 
