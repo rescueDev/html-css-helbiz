@@ -108,5 +108,22 @@ header {
 
 .centra-sez3 {
   padding: 2% 5%;
+}
+
+#smart-mobility-container {
+  width: 100%;
+  background-image: url(../img/smart-mobility.jpg);
+  background-size:cover;
+  min-height:500px;
+  position: relative;
+
+}
+
+#smart-mobility-text {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+
 
 }
