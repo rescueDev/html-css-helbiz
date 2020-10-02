@@ -141,5 +141,32 @@ header {
   background-size:cover;
   min-height:500px;
   text-align: center;
+}
 
+#get-app-text h1,
+#get-app-text p,
+#get-app-text a {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+#get-app-text {
+  margin-bottom: 20px;
+}
+
+#find-us-text h1,
+#find-us-text p,
+#find-us-text a {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+
+}
+
+#get-app-text h1,
+#find-us-text h1 {
+  font-size: 35px;
 }
