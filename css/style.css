@@ -118,9 +118,28 @@ header {
   position: relative;
 }
 
+/* stile testo smart mobility */
 #smart-mobility-text {
   color: white;
   position: absolute;
   top: 30%;
   left: 60%;
+}
+
+/* contenitore get app */
+#get-app-container {
+  width: 100%;
+  min-height:500px;
+  background-color: #394a5b;
+  text-align: center;
+}
+
+/* contenitore find-us */
+#find-us-container {
+  width: 100%;
+  background-image: url(../img/find-us.jpg);
+  background-size:cover;
+  min-height:500px;
+  text-align: center;
+
 }
