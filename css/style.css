@@ -43,15 +43,36 @@ header {
   z-index: 900;
 }
 
+#hulbiz-logo-header {
+  width: 100%;
+  text-align: center;
+  padding-top:20px;
+}
+
+#hulbiz-logo-header a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-menu-header li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#nav-menu-header {
+  padding-top: 20px;
+}
+
 #nav-mobile {
   display: none;
 }
 
 #jumbo {
   padding-top: 50px;
-  min-height: 300px;
+  min-height: 500px;
   background-image: url(../img/jumbotron.jpg);
   background-size: cover;
+  margin-bottom: 100px;
 }
 
 #jumbo-text {
