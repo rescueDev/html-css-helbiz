@@ -190,6 +190,10 @@ header {
   font-size: 35px;
 }
 
+#social-sez {
+  margin-bottom: 30px;
+}
+
 /* container con immagine social */
 #hashtag-container {
   min-height: 400px;
@@ -246,3 +250,26 @@ header {
 .social-logo i {
   font-size: 30px;
 }
+
+footer {
+  background-color: #000000;
+}
+
+/* link helbiz footer  */
+#helbiz-logo-footer a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+}
+
+/* voci menu verticali */
+.text-menu-footer li {
+  display: inline;
+}
+
+/* titoli menu footer */
+
+
+/* stile menu link */
