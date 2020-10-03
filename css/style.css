@@ -44,6 +44,10 @@ header {
   z-index: 900;
 }
 
+#nav-mobile {
+  display: none;
+}
+
 #hulbiz-logo-header {
   width: 100%;
   text-align: center;
@@ -301,7 +305,7 @@ header {
   margin-top:20px;
   background-color: #394a5b;
   text-align: center;
-}
+  }
 
 #get-app-img img {
   max-width: 100%;
@@ -510,4 +514,23 @@ footer {
 .store-button img {
   max-width: 60%;
   min-height:100px;
+}
+
+@media all and (max-width:768px) {
+
+  #nav-large {
+    display: none;
+  }
+
+  #nav-mobile {
+    display: block;
+    width: 100%;
+    padding-bottom:100px;
+  }
+
+  #hamburgher-menu-mobile {
+    text-align: center;
+    margin-top: 10px;
+  }
+
 }
