@@ -36,6 +36,7 @@ header {
 }
 
 #nav-large {
+  background-color: white;
   position: fixed;
   top: 0;
   left: 0;
@@ -81,19 +82,60 @@ header {
 
 #jumbo {
   padding-top: 50px;
-  min-height: 500px;
-  background-image: url(../img/jumbotron.jpg);
+  min-height: 700px;
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../img/jumbotron.jpg);
   background-size: cover;
   margin-bottom: 100px;
+  position: relative;
+}
+
+.jumbo-section {
+  width: 100%;
+  min-height: 300px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #jumbo-text {
   width: 100%;
   text-align: center;
+  padding-top: 40px;
+
 }
 
-/* regole corpo pagina */
+#jumbo-button {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
 
+#jumbo-button img {
+  width: 20%;
+  min-height: 60px;
+}
+
+#jumbo-text h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+#jumbo-text h1 {
+  font-size: 40px;
+  color:white;
+}
+
+#jumbo-text p {
+  font-size: 20px;
+  color:white;
+}
+
+
+/* regole corpo pagina */
 .centra-sez1 {
   padding: 0 5%;
 }
