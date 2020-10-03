@@ -5,12 +5,11 @@
   box-sizing: border-box;
 }
 
+
 img {
   max-width: 100%;
   height: auto;
 }
-
-
 
 /* regole di debug */
 [class*="col-"] {
@@ -110,6 +109,7 @@ header {
   padding: 2% 5%;
 }
 
+/* contenitore colonna smart mobility */
 #smart-mobility-container {
   width: 100%;
   background-image: url(../img/smart-mobility.jpg);
@@ -134,6 +134,15 @@ header {
   text-align: center;
 }
 
+/* #get-app-text {
+  min-height: 200px;
+}
+
+#get-app-img img {
+  max-width: 100%;
+  margin-bottom: 0;
+} */
+
 /* contenitore find-us */
 #find-us-container {
   width: 100%;
@@ -143,6 +152,7 @@ header {
   text-align: center;
 }
 
+/* stile elementi testuali nella sezione get app */
 #get-app-text h1,
 #get-app-text p,
 #get-app-text a {
@@ -152,11 +162,18 @@ header {
   text-decoration: none;
 }
 
+/* margini inferiori in get app e find us */
 #get-app-text,
 #find-us-text {
   margin-bottom: 20px;
 }
 
+/* contenitore testo find us */
+#find-us-text {
+  min-height: 300px;
+}
+
+/* stile elementi testuali nella sezione find-us */
 #find-us-text h1,
 #find-us-text p,
 #find-us-text a {
@@ -167,7 +184,65 @@ header {
 
 }
 
+/* font h1 in sez get app e find us */
 #get-app-text h1,
 #find-us-text h1 {
   font-size: 35px;
+}
+
+/* container con immagine social */
+#hashtag-container {
+  min-height: 400px;
+  background-image: url(../img/pachwork.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+/* contenitore bianco hashtag e loghi social */
+#hashtag-helbiz {
+  min-height: 200px;
+  width: 25%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* stile hastag helbiz */
+#helbiz-family > h1 {
+  padding-top: 70px;
+  padding-bottom: 10px;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+/* clearfix float social logo */
+#social-logo-hashtag::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* centratura orizzontale social */
+#social-logo-hashtag {
+  padding-left: 80px;
+}
+
+/* stile loghi social */
+.social-logo {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* stile link social-logo */
+.social-logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-logo i {
+  font-size: 30px;
 }
