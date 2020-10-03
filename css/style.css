@@ -161,6 +161,11 @@ header {
   font-size: 20px;
 }
 
+.sez1-container-left img {
+  max-width: 100%;
+  min-height:600px;
+}
+
 /* contenitore dx sezione 1 di main */
 .sez1-container-right {
   width: 100%;
@@ -182,22 +187,27 @@ header {
   font-size: 20px;
 }
 
+.sez1-container-right img {
+  max-width: 100%;
+  min-height:600px;
+}
+
 .sez2 {
   padding:2% 0;
   position: relative;
 }
 
 #iphone {
-  width: 20%;
+  width: 15%;
   position: absolute;
-  top:50%;
+  top:55%;
   left:50%;
-  transform: translate(-40%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 #iphone img {
   max-width: 100%
-  height:250px;
+  min-height:100px;
 }
 
 #sez2-downA,
@@ -260,35 +270,51 @@ header {
 
 /* stile testo smart mobility */
 #smart-mobility-text {
+  width: 22%;
   color: white;
+  text-align: center;
   position: absolute;
   top: 30%;
   left: 60%;
+}
+
+#smart-mobility-text h1 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+#smart-mobility-text h3 {
+  margin-bottom: 15px;
+}
+
+#smart-mobility-text a {
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* contenitore get app */
 #get-app-container {
   width: 100%;
   min-height:500px;
+  margin-top:20px;
   background-color: #394a5b;
   text-align: center;
 }
 
-/* #get-app-text {
-  min-height: 200px;
-}
-
 #get-app-img img {
   max-width: 100%;
-  margin-bottom: 0;
-} */
+  min-height: 350px;
+}
 
 /* contenitore find-us */
 #find-us-container {
   width: 100%;
+  min-height:538.5px;
+  margin-top:20px;
   background-image: url(../img/find-us.jpg);
   background-size:cover;
-  min-height:500px;
   text-align: center;
 }
 
@@ -298,13 +324,14 @@ header {
 #get-app-text a {
   font-size: 20px;
   color: white;
-  padding: 20px;
+  margin-bottom: 10px;
   text-decoration: none;
 }
 
 /* margini inferiori in get app e find us */
 #get-app-text,
 #find-us-text {
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -315,11 +342,10 @@ header {
 
 /* stile elementi testuali nella sezione find-us */
 #find-us-text h1,
-#find-us-text p,
 #find-us-text a {
   font-size: 20px;
   color: white;
-  padding: 20px;
+  margin-bottom: 30px;
   text-decoration: none;
 
 }
@@ -356,7 +382,7 @@ header {
 
 /* stile hastag helbiz */
 #helbiz-family > h1 {
-  padding-top: 70px;
+  padding-top: 60px;
   padding-bottom: 10px;
   font-size: 35px;
   font-weight: normal;
@@ -444,7 +470,7 @@ footer {
 #social-logo-sub-footer {
   width: 100%;
   padding-top: 40px;
-  text-align: center;
+  padding-left: 25%;
 }
 
 /* clearfix float loghi social sub-footer */
@@ -474,13 +500,14 @@ footer {
 }
 
 .store-button {
-  width: 100%;
+  width: 50%;
   min-height: 100px;
   text-align: center;
+  float: left;
 
 }
 
 .store-button img {
-  max-width: 100%;
-  height:100px;
+  max-width: 60%;
+  min-height:100px;
 }
