@@ -49,6 +49,11 @@ header {
   padding-top:20px;
 }
 
+/* stile testo nav menu e logo */
+#hulbiz-logo-header h3 {
+  font-size: 25px;
+}
+
 #hulbiz-logo-header a {
   text-decoration: none;
   color: black;
@@ -57,10 +62,17 @@ header {
 #nav-menu-header li {
   display: inline;
   margin-right: 10px;
+
 }
 
 #nav-menu-header {
-  padding-top: 20px;
+  padding-top: 30px;
+}
+
+#nav-menu-header a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
 }
 
 #nav-mobile {
