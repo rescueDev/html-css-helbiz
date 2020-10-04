@@ -533,4 +533,40 @@ footer {
     margin-top: 10px;
   }
 
+  #jumbo {
+    padding-top: 20px;
+    min-height: 500px;
+    margin-bottom: 70px;
+  }
+
+
+  .jumbo-section {
+    width: 80%;
+  }
+
+  #jumbo-text {
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+
+  }
+
+  #jumbo-button img {
+    width: 35%;
+    min-height: 60px;
+  }
+
+  #jumbo-text h1 {
+    margin-bottom: 15px;
+    color: white;
+    font-size: 35px;
+  }
+
+  #jumbo-text p {
+    font-size: 18px;
+    color:white;
+  }
+
+  
+
 }
