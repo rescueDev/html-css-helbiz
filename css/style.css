@@ -662,6 +662,11 @@ footer {
     text-align: center;
   }
 
+/* sez3 senza centratura */
+  .centra-sez3 {
+    padding:5% 0;
+  }
+
   /* sezione 3 */
   #smart-mobility-container {
     width: 100%;
@@ -697,6 +702,44 @@ footer {
     color:white;
     font-size: 14px;
   }
+
+  #get-app-container {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  /* stile elementi testuali nella sezione get app */
+
+  #get-app-text {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #get-app-text h1,
+  #get-app-text p,
+  #get-app-text a {
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  #get-app-text h1 {
+    font-size: 30px;
+  }
+
+  #find-us-container {
+    width: 90%;
+    margin:20px auto;
+  }
+
+  #find-us-text {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+
 
 
 
