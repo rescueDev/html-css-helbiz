@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Verdana, arial, sans-serif;
 }
 
 
@@ -381,7 +382,7 @@ header {
 }
 
 /* contenitore bianco hashtag e loghi social */
-#hashtag-helbiz {
+#h  ashtag-helbiz {
   min-height: 200px;
   width: 25%;
   background-color: white;
@@ -782,6 +783,25 @@ footer {
     font-size: 40px;
   }
 
-  
+  /* testo sub-footer menu */
+  .text-sub-footer-menu {
+    color:white;
+    padding-top: 20px;
+  }
+
+  /* contenitore button store */
+  .store-button {
+    width: 50%;
+    min-height: 100px;
+    text-align: center;
+    float: left;
+
+  }
+
+  /* immagini stores */
+  .store-button img {
+    max-width: 100%;
+    min-height:100px;
+  }
 
 }
