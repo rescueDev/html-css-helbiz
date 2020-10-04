@@ -739,8 +739,49 @@ footer {
     padding-top: 30px;
   }
 
+  /* sezione social hastag */
+  #hashtag-helbiz {
+    min-height: 200px;
+    width: 65%;
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
+  #helbiz-family {
+    width: 80%;
+    margin:0 auto;
+  }
 
+  /* stile hastag helbiz */
+  #helbiz-family > h1 {
+    padding-top: 20px;
+    padding-bottom:5px;
+    font-size: 20px;
+    font-weight: normal;
+  }
 
+  /* centratura orizzontale social */
+  #social-logo-hashtag {
+    padding-top:20px;
+    padding-left: 10px;
+  }
+
+  /* stile loghi social */
+  .social-logo {
+    float: none;
+    padding-bottom: 10px;
+  }
+
+  /* font icone loghi social */
+  .social-logo i {
+    font-size: 40px;
+  }
+
+  
 
 }
