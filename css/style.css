@@ -147,6 +147,7 @@ header {
 /* contenitore sx sezione 1 di main */
 .sez1-container-left {
   width: 100%;
+  min-height: 500px;
   text-align: center;
   padding-top:15px;
   margin-bottom: 40px;
@@ -155,19 +156,26 @@ header {
   /* border:1px solid black; */
 }
 
-.sez1-container-left h2 {
+.sez1-text h2 {
   margin-bottom: 15px;
   font-size: 35px;
 }
 
-.sez1-container-left p {
+.sez1-text p {
   margin-bottom: 15px;
   font-size: 20px;
 }
 
-.sez1-container-left img {
+.sez1-img {
+  width: 80%;
+  margin:0 auto;
+  min-height:100px;
+}
+
+.sez1-img img {
   max-width: 100%;
   min-height:600px;
+
 }
 
 /* contenitore dx sezione 1 di main */
@@ -567,6 +575,53 @@ footer {
     color:white;
   }
 
-  
+  /* contenitore sx sezione 1 di main */
+  .sez1-container-left {
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+    padding-top:15px;
+    margin-bottom: 40px;
+    background-color:#FAFAFA;
+    /* debug */
+    /* border:1px solid black; */
+  }
+
+  /* contenitore dx sezione 1 di main */
+  .sez1-container-right {
+    width: 100%;
+    text-align: center;
+    padding-top:15px;
+    margin-bottom: 40px;
+    background-color:#FAFAFA;
+    /* debug */
+      /* border:1px solid black; */
+  }
+
+  .sez1-text h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+  }
+
+  .sez1-text p {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .sez1-text a {
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+  }
+
+  .sez1-img img {
+    max-width: 100%;
+    min-height:300px;
+  }
+
+
+
+
 
 }
