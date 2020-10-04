@@ -1110,3 +1110,297 @@ footer {
 
 }
 
+@media all and (min-width:993) {
+  #nav-large {
+    display: block;
+  }
+
+  #nav-mobile {
+    display: none;
+    width: 100%;
+    padding-bottom:100px;
+  }
+
+  #jumbo {
+    padding-top: 20px;
+    min-height: 600px;
+    margin-bottom: 70px;
+  }
+
+
+  .jumbo-section {
+    width: 100%;
+  }
+
+  #jumbo-button img {
+    width: 20%;
+    min-height: 50px;
+  }
+
+  #jumbo-text h1 {
+    margin-bottom: 15px;
+    font-size: 35px;
+  }
+
+  /* contenitore sx sezione 1 di main */
+  .sez1-container-left {
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+    padding-top:15px;
+    margin:40px auto;
+    background-color:#FAFAFA;
+    /* debug */
+    /* border:1px solid black; */
+  }
+
+  /* contenitore dx sezione 1 di main */
+  .sez1-container-right {
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+    padding-top:15px;
+    margin:40px auto;
+    background-color:#FAFAFA;
+    /* debug */
+      /* border:1px solid black; */
+  }
+
+  .sez1-text h2 {
+    font-size: 35px;
+  }
+
+  .sez1-text p {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .sez1-text a {
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .sez1-img img {
+    max-width: 100%;
+    min-height:350px;
+  }
+
+  /* sezione 2 */
+
+  .sez2-up {
+    width: 100%;
+    min-height: 600px;
+    background-image: url(../img/how-it-works.jpg);
+    background-size: cover;
+    padding-bottom: 100px;
+  }
+
+  .sez2-up img {
+    display: none;
+  }
+
+  #iphone {
+    width: 25%;
+  }
+
+  #iphone img {
+    max-width: 100%
+    min-height:100px;
+  }
+
+  #sez2-downA,
+  #sez2-downB {
+    width: 100%;
+    min-height: 100px;
+  }
+
+  #sez2-downA {
+
+  }
+
+  #text-sez2a {
+    min-height: 50px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  #text-sez2b {
+    text-align: center;
+  }
+
+  /* stile testo smart mobility */
+  #smart-mobility-text {
+    width: 22%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+
+  #smart-mobility-text h1 {
+    font-size: 35px;
+    margin-bottom: 8px;
+  }
+
+  #smart-mobility-text h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  #smart-mobility-text a {
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+  }
+
+  #get-app-container {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  /* stile elementi testuali nella sezione get app */
+
+  #get-app-text {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #get-app-text h1,
+  #get-app-text p,
+  #get-app-text a {
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  #get-app-text h1 {
+    font-size: 30px;
+  }
+
+  #find-us-container {
+    width: 100%;
+    min-height:599px;
+    margin:20px auto;
+  }
+
+  #find-us-text {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  /* sezione social hastag */
+  #hashtag-helbiz {
+    min-height: 200px;
+    width: 50%;
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #helbiz-family {
+    width: 80%;
+    margin:0 auto;
+  }
+
+  /* stile hastag helbiz */
+  #helbiz-family > h1 {
+    padding-top: 40px;
+    padding-bottom:5px;
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  /* centratura orizzontale social */
+  #social-logo-hashtag {
+    padding-top:20px;
+    padding-left: 60px;
+  }
+
+  /* stile loghi social */
+  .social-logo {
+    float: left;
+  }
+
+  /* font icone loghi social */
+  .social-logo i {
+    font-size: 40px;
+  }
+
+  /* parte footer */
+
+  /* stile menu link */
+  .text-menu-footer a {
+    text-decoration: none;
+    font-size: 14px;
+    color: lightgrey;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+  }
+
+    /* testo sub-footer menu */
+  .text-sub-footer-menu {
+    color:white;
+    padding-top: 15px;
+  }
+
+  /* contenitore button store */
+  .store-button {
+    width: 50%;
+    min-height: 100px;
+    text-align: center;
+    float: left;
+  }
+
+  /* immagini stores */
+  .store-button img {
+    max-width: 80%;
+    min-height:100px;
+  }
+
+  /* contenitore sub-footer */
+  #sub-footer-container {
+    width: 100%;
+  }
+
+  /* container loghi social sub footer */
+  #social-logo-sub-footer {
+    width: 80%;
+    margin:0 auto;
+    padding-top: 40px;
+    padding-left: 0px;
+  }
+
+  /* contenitori singoli loghi social sub-footer */
+  .social-logo-sub {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+  }
+
+  /* testo sub-footer menu */
+  .text-sub-footer-menu {
+    color:white;
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+
+  .text-sub-footer-menu h5 {
+    font-size:10px;
+  }
+
+  .store-button {
+    width: 50%;
+    min-height: 50px;
+    text-align: center;
+    float: left;
+  }
+}
