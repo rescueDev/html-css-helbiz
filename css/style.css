@@ -210,17 +210,30 @@ header {
   position: relative;
 }
 
-#iphone {
+/* #iphone {
   width: 15%;
   position: absolute;
   top:55%;
   left:50%;
   transform: translate(-50%, -50%);
-}
+} */
 
-#iphone img {
+/* #iphone img {
   max-width: 100%
   min-height:100px;
+} */
+
+#phoneframe{
+  background-image: url('../img/iphone.png');
+  width:20%;
+  height:80%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 10;
+  position:absolute;
+  left:50%;
+  bottom: 0;
+  transform: translateX(-50%);
 }
 
 #sez2-downA,
@@ -636,23 +649,33 @@ footer {
     display: none;
   }
 
-  #iphone {
+  /* #iphone {
     width: 40%;
-  }
+  } */
 
-  #iphone img {
+  /* #iphone img {
     max-width: 100%
     min-height:100px;
+  } */
+
+  #phoneframe{
+    background-image: url('../img/iphone.png');
+    width:30%;
+    height:80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 10;
+    position:absolute;
+    left:50%;
+    bottom: 0;
+    transform: translateX(-50%);
   }
 
   #sez2-downA,
   #sez2-downB {
+    margin-top: 50%;
     width: 100%;
     min-height: 100px;
-  }
-
-  #sez2-downA {
-    tex
   }
 
   #text-sez2a {
@@ -784,8 +807,10 @@ footer {
   }
 
   /* testo sub-footer menu */
-  .text-sub-footer-menu {
+  .text-sub-footer-menu a {
     color:white;
+    text-decoration: none;
+    font-size: 12px;
     padding-top: 20px;
   }
 
@@ -903,23 +928,23 @@ footer {
     display: none;
   }
 
-  #iphone {
-    width: 25%;
-  }
-
-  #iphone img {
-    max-width: 100%
-    min-height:100px;
+  #phoneframe{
+    background-image: url('../img/iphone.png');
+    width:25%;
+    height:80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 10;
+    position:absolute;
+    left:50%;
+    bottom: 0;
+    transform: translateX(-50%);
   }
 
   #sez2-downA,
   #sez2-downB {
     width: 100%;
     min-height: 100px;
-  }
-
-  #sez2-downA {
-
   }
 
   #text-sez2a {
@@ -960,6 +985,7 @@ footer {
 
   #get-app-container {
     width: 100%;
+    min-height: 500px;
     margin: 20px auto;
   }
 
@@ -976,7 +1002,7 @@ footer {
   #get-app-text p,
   #get-app-text a {
     color: white;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
 
   #get-app-text h1 {
@@ -985,7 +1011,7 @@ footer {
 
   #find-us-container {
     width: 100%;
-    min-height:599px;
+    min-height:500px;
     margin:20px auto;
   }
 
@@ -1091,11 +1117,15 @@ footer {
   }
 
   /* testo sub-footer menu */
-  .text-sub-footer-menu {
+  .text-sub-footer-menu a {
     color:white;
+    text-decoration: none;
+    font-size: 16px;
     padding-top: 40px;
     padding-left: 20px;
   }
+
+
 
   .text-sub-footer-menu h5 {
     font-size:10px;
@@ -1110,7 +1140,8 @@ footer {
 
 }
 
-@media all and (min-width:993) {
+@media all and (min-width:993px) {
+
   #nav-large {
     display: block;
   }
@@ -1139,7 +1170,7 @@ footer {
 
   #jumbo-text h1 {
     margin-bottom: 15px;
-    font-size: 35px;
+    font-size: 45px;
   }
 
   /* contenitore sx sezione 1 di main */
@@ -1230,28 +1261,28 @@ footer {
 
   /* stile testo smart mobility */
   #smart-mobility-text {
-    width: 22%;
+    width: 32%;
     color: white;
     text-align: center;
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 60%;
   }
 
   #smart-mobility-text h1 {
-    font-size: 35px;
-    margin-bottom: 8px;
+    font-size: 45px;
+    margin-bottom: 20px;
   }
 
   #smart-mobility-text h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
   }
 
   #smart-mobility-text a {
     text-decoration: none;
     color:white;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   #get-app-container {
@@ -1262,7 +1293,7 @@ footer {
   /* stile elementi testuali nella sezione get app */
 
   #get-app-text {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -1272,7 +1303,7 @@ footer {
   #get-app-text p,
   #get-app-text a {
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   #get-app-text h1 {
@@ -1281,12 +1312,12 @@ footer {
 
   #find-us-container {
     width: 100%;
-    min-height:599px;
+    min-height:620px;
     margin:20px auto;
   }
 
   #find-us-text {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     padding-top: 30px;
   }
@@ -1311,16 +1342,16 @@ footer {
 
   /* stile hastag helbiz */
   #helbiz-family > h1 {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom:5px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: normal;
   }
 
   /* centratura orizzontale social */
   #social-logo-hashtag {
-    padding-top:20px;
-    padding-left: 60px;
+    padding-top:15px;
+    padding-left: 22%;
   }
 
   /* stile loghi social */
@@ -1330,7 +1361,7 @@ footer {
 
   /* font icone loghi social */
   .social-logo i {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   /* parte footer */
@@ -1346,8 +1377,10 @@ footer {
   }
 
     /* testo sub-footer menu */
-  .text-sub-footer-menu {
+  .text-sub-footer-menu a {
     color:white;
+    text-decoration: none;
+    font-size: 14px;
     padding-top: 15px;
   }
 
@@ -1381,16 +1414,16 @@ footer {
   /* contenitori singoli loghi social sub-footer */
   .social-logo-sub {
     float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 5px;
+    font-size: 20px;
   }
 
   /* testo sub-footer menu */
   .text-sub-footer-menu {
     color:white;
-    padding-top: 40px;
-    padding-left: 20px;
+    padding-top: 45px;
+    padding-left: 0px;
   }
 
   .text-sub-footer-menu h5 {
@@ -1399,7 +1432,7 @@ footer {
 
   .store-button {
     width: 50%;
-    min-height: 50px;
+    min-height: 60px;
     text-align: center;
     float: left;
   }
